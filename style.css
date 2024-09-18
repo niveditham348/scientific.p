@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    background:linear-gradient(300deg,#7b07ef,#5bb7e8,#f1097d);
+
+}
+
+.calculator {
+    background-color: #8eecc0;
+    
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(211, 153, 153, 0.2);
+border-style: double;
+line-height: normal;
+gap: 200px;
+
+}
+
+#display{
+    padding:0%;
+    width: 70%;
+    height: 50px;
+    
+    margin-bottom: 10px;
+    padding-inline: 0;
+    font-size: 24px;
+    text-align:center;
+    border: none;
+    border-radius: 50px;
+    background-color: #ee9292;
+    
+}
+
+.buttons {
+    display:grid;
+padding-block:px;
+    grid-template-columns: repeat(8, 4fr);
+    gap: 80px;
+    
+
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    background-color: #bdaaaa;
+    color: #6d0d0d;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    gap:50px;
+    border-style:outset;
+    background:linear-gradient(300deg,#7b07ef,#f1097d,#8eecc0);
+
+}
+
+
+
+
+button:hover {
+    background-color: #5d4b89;
+}
+
+button:active {
+    background-color: #8a1212;
+    gap:50px;
+}
+#mainButton{
+color:#8a1212;
+  background-color:blue;
+}
+
+#hiddenButtons {
+    display: inline;
+    align-content: center;
+    background-color: aqua; /* It will hide the buttons initially */
+}
